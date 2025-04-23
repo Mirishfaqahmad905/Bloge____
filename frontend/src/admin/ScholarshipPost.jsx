@@ -22,7 +22,7 @@ const ScholarshipPost = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://bloge-3yc3-68bihfv1r-mir-ishfaq-ahmads-projects.vercel.app
+      const response = await fetch('https://bloge-3yc3-git-main-mir-ishfaq-ahmads-projects.vercel.app
 /api/scholarships', {
         method: 'POST',
         headers: {
