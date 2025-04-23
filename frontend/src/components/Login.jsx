@@ -19,7 +19,7 @@ const Login = () => {
     e.preventDefault();
   
     try {
-      const response = await fetch(`http://localhost:3000/api/login`, {
+      const response = await fetch(`https://bloge-3yc3-git-main-mir-ishfaq-ahmads-projects.vercel.app/api/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
