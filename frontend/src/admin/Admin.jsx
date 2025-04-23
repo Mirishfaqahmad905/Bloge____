@@ -28,7 +28,8 @@ const Admin = () => {
     setError("");
     setSuccess("");
     try {
-      const response = await axios.post("https://bloge-ksu7.vercel.app/api/login/admin", formData);
+      const response = await axios.post("https://bloge-3yc3-68bihfv1r-mir-ishfaq-ahmads-projects.vercel.app
+/api/login/admin", formData);
       const { token, message } = response.data;
 
       // Save token to localStorage
